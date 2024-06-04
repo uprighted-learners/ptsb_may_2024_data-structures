@@ -68,7 +68,6 @@ let food = ["Pecan pie", "Shrimp", "Quesadilla", "Cheese Cake", "Hotdog"];
 // Returns what is 'sliced' or removed from the array
 // console.log(food.slice(1,3));
 
-
 //* pop()
 // Removes the last element in an array, and will return the element
 // food.pop()
