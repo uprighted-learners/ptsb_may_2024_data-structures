@@ -57,4 +57,3 @@ theSimpsons.currently_running = false
 console.log(theSimpsons);
 
 console.log(theSimpsons.seasons["season one"][0].aired);
-
