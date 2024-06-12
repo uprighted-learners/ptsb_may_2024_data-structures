@@ -64,7 +64,6 @@ class Game {
         console.log(`You and the computer have both guessed ${playerAnswer}`);
       }
 
-  
       if (this.playerScore === 3) {
         console.log(`You: ${this.playerScore} Computer: ${this.computerScore}`);
         console.log("Congrats, you won the game!");
@@ -81,6 +80,4 @@ class Game {
 
 let firstGame = new Game();
 
-
-firstGame.run();
 
