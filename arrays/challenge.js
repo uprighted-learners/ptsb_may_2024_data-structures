@@ -61,3 +61,35 @@ function letterFilter (array, letter) {
 
 
 console.log(letterFilter(learners, "D"))
+/*
+    ! Challenge 🔴
+    ?   .map() - Apply action to store modified values in a new array
+          Given the list of learners...
+            - Create an arrow function that will take in the array of learners, and a message. ex) " is awesome! 😀"
+            - Inside the function use the .map method on the array of learners to return back a new array.
+              - Using the .map method, the returned array should store the value "{learner} {message}" on each iteration.
+                ex) Final Output:
+                  [
+                    "Amit is awesome! 😀",
+                    "Ben is awesome! 😀",
+                    ...
+                  ]
+            - Call the function. Be sure to log the invocation, so the desired result/return can be seen in the output window.
+*/
+
+
+const myMapFunc = (arr, str) => {
+     let mappedArray = arr.map((l) => {
+        // ...
+            return `${l} ${str}`
+     })
+
+     return mappedArray
+}
+
+// myMapFunc(learners, "is awesome! 😀")
+
+const myMapFunc2 = (arr,str) => arr.map((l) => `${l} ${str}`);
+
+
+// console.log(myMapFunc2(learners, "is going to be a great programmer! :)") )
